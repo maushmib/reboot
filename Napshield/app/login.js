@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
 
-const API_URL = 'http://192.168.126.1:5000'; // Replace with your actual local IP
+const API_URL = 'http://192.168.98.1:5000'; // Replace with your actual local IP
 
 export default function Login() {
   const router = useRouter();
